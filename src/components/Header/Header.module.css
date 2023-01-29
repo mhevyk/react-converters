@@ -1,0 +1,13 @@
+.header {
+    background-color: var(--transparent-dark-color);
+    padding: 25px 0;
+}
+
+.title {
+    font-size: min(12vw, 3.2rem);
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: min(6vw, 1rem);
+}
