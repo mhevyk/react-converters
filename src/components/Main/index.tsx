@@ -1,14 +1,12 @@
-import { Container } from 'react-bootstrap';
+import './Main.css';
 import { Outlet } from 'react-router-dom';
 import Menu from '../Menu';
 
 function Main() {
   return (
-    <main>
+    <main className="App__main">
       <Menu />
-      <Container fluid>
-        <Outlet />
-      </Container>
+      <Outlet />
     </main>
   );
 }

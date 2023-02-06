@@ -1,13 +1,13 @@
-.header {
+.App__header {
     background-color: var(--transparent-dark-color);
     padding: 25px 0;
 }
 
-.title {
+.App__header>.title {
     font-size: min(12vw, 3.2rem);
     margin-bottom: 10px;
 }
 
-.subtitle {
+.App__header>.subtitle {
     font-size: min(6vw, 1rem);
 }

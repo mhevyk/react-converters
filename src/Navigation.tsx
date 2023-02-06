@@ -2,10 +2,10 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Main from './components/Main';
 import AreaPage from './pages/AreaPage';
 import LengthPage from './pages/LengthPage';
-import NotFoundPage from './pages/NotFoundPage';
 import TemperaturePage from './pages/TemperaturePage';
+import NotFoundPage from './pages/NotFoundPage';
 
-function AppRoutes() {
+function Navigation() {
   return (
     <Routes>
       <Route path="/" element={<Main />}>
@@ -19,4 +19,4 @@ function AppRoutes() {
   );
 }
 
-export default AppRoutes;
+export default Navigation;

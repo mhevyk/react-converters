@@ -1,5 +1,7 @@
+import Section from '../components/Section';
+
 function TemperaturePage() {
-  return <div>TemperaturePage</div>;
+  return <Section name="Temperature converter">TemperaturePage</Section>;
 }
 
 export default TemperaturePage;

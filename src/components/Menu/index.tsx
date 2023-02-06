@@ -12,7 +12,7 @@ function Menu() {
     <Navbar
       bg="light"
       expand={expand}
-      className="mb-3 border-bottom border-primary"
+      className="mb-3 border-bottom border-secondary"
     >
       <Container fluid>
         <Navbar.Brand as={Link} to="/">

@@ -1,10 +1,10 @@
-import styles from './Footer.module.css';
+import './Footer.css';
 
 function Footer() {
   const currentYear: number = new Date().getFullYear();
 
   return (
-    <footer className={`${styles.footer} text-center text-white`}>
+    <footer className="App__footer text-center text-white">
       {currentYear} © <span className="text-primary">Max Hevyk</span>
     </footer>
   );

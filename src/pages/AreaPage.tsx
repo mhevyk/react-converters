@@ -1,5 +1,7 @@
+import Section from '../components/Section';
+
 function Area() {
-  return <div>AreaPage</div>;
+  return <Section name="Area converter">AreaPage</Section>;
 }
 
 export default Area;
