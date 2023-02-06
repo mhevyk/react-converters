@@ -1,0 +1,16 @@
+.navbar-nav .nav__link {
+    color: var(--transparent-dark-color);
+    text-decoration: none;
+}
+
+.navbar .nav__link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.offcanvas-backdrop + .offcanvas .nav__link:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.navbar-nav .nav__link.active {
+    color: rgb(var(--bs-primary-rgb));
+}
