@@ -9,7 +9,7 @@ interface SectionProps {
 function Section({ name, children }: SectionProps) {
   return (
     <Container as="section">
-      <h2 className="text-uppercase border-bottom border-primary pb-2">{name}</h2>
+      <h2 className="text-uppercase">{name}</h2>
       {children}
     </Container>
   );
