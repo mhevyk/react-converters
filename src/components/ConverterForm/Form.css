@@ -1,0 +1,23 @@
+.form .form__group {
+    margin-bottom: 17px;
+}
+
+.form .form__group .form-text {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.form .form__group .form__item {
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.form .form__group .form__item:focus {
+    box-shadow: none;
+    border-color: var(--bs-primary);
+}
+
+.form .form__group .form__item:not(:last-child) {
+    margin-bottom: 5px;
+}
