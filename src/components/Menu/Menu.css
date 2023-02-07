@@ -1,3 +1,7 @@
+.navbar-brand .logo {
+    width: 25px;
+}
+
 .navbar-nav .nav__link {
     color: var(--transparent-dark-color);
     text-decoration: none;
@@ -7,10 +11,10 @@
     margin-right: 10px;
 }
 
-.offcanvas-backdrop + .offcanvas .nav__link:not(:last-child) {
+.offcanvas-backdrop+.offcanvas .nav__link:not(:last-child) {
     margin-bottom: 10px;
 }
 
 .navbar-nav .nav__link.active {
-    color: rgb(var(--bs-primary-rgb));
+    color: var(--bs-primary);
 }
