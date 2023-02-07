@@ -1,0 +1,165 @@
+{
+    "type": "area",
+    "data": [
+        {
+            "id": "nm2",
+            "value": 1000000000000000000,
+            "names": {
+                "short": "nm²",
+                "full": "square nanometer"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "µm2",
+            "value": 1000000000000,
+            "names": {
+                "short": "µm²",
+                "full": "square micrometer"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "mm2",
+            "value": 1000000,
+            "names": {
+                "short": "mm²",
+                "full": "square millimeter"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "cm2",
+            "value": 10000,
+            "names": {
+                "short": "cm²",
+                "full": "square centimeter"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "dm2",
+            "value": 100,
+            "names": {
+                "short": "dm²",
+                "full": "square decimeter"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "m2",
+            "value": 1,
+            "names": {
+                "short": "m²",
+                "full": "square meter"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "ar",
+            "value": 0.01,
+            "names": {
+                "short": "a",
+                "full": "ar"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "ha",
+            "value": 0.0001,
+            "names": {
+                "short": "ha",
+                "full": "hectare"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "km2",
+            "value": 0.000001,
+            "names": {
+                "short": "km²",
+                "full": "square kilometer"
+            },
+            "group": "Metric system"
+        },
+        {
+            "id": "township",
+            "value": 1.072506e-8,
+            "names": {
+                "full": "township"
+            },
+            "group": "Anglo-american units"
+        },
+        {
+            "id": "mi2",
+            "value": 3.861022e-7,
+            "names": {
+                "short": "mi²",
+                "full": "square mile"
+            },
+            "group": "Anglo-american units"
+        },
+        {
+            "id": "homestead",
+            "value": 0.000001544409,
+            "names": {
+                "full": "homestead"
+            },
+            "group": "Anglo-american units"
+        },
+        {
+            "id": "acre",
+            "value": 0.0002471055,
+            "names": {
+                "short": "acre",
+                "full": "acre"
+            },
+            "group": "Anglo-american units"
+        },
+        {
+            "id": "rod",
+            "value": 0.000988422,
+            "names": {
+                "short": "rod",
+                "full": "rod"
+            },
+            "group": "Anglo-american units"
+        },
+        {
+            "id": "rod2",
+            "value": 0.03953687,
+            "names": {
+                "short": "rod²",
+                "full": "square rod"
+            },
+            "group": "Anglo-american units"
+        },
+        {
+            "id": "yd2",
+            "value": 1.19599,
+            "names": {
+                "short": "yd²",
+                "full": "square yard"
+            },
+            "group": "Anglo-american units"
+        },
+        {
+            "id": "ft2",
+            "value": 10.76391,
+            "names": {
+                "short": "ft²",
+                "full": "square foot"
+            },
+            "group": "Anglo-american units"
+        },
+        {
+            "id": "in2",
+            "value": 1550,
+            "names": {
+                "short": "in²",
+                "full": "square inch"
+            },
+            "group": "Anglo-american units"
+        }
+    ]
+}
