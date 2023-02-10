@@ -1,16 +1,15 @@
 import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { ConverterTypes } from '../../types';
 
 interface ConverterTypesNavProps {
   onLinkClick: () => void;
 }
 
 function ConverterTypesNav({ onLinkClick }: ConverterTypesNavProps) {
-  const converterTypes: string[] = ['area', 'length', 'temperature'];
-
   return (
     <Nav className="justify-content-end flex-grow-1 pe-3">
-      {converterTypes.map((type) => (
+      {Object.values(ConverterTypes).map((type) => (
         <NavLink
           key={type}
           to={`/${type}`}
