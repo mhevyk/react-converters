@@ -11,8 +11,7 @@ function UnitOfMeasurementInput({
   const [value, setValue] = useState<string>('');
 
   const changeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const limit = 10;
-    setValue(event.target.value.slice(0, limit));
+    setValue(event.target.value);
   };
 
   return (

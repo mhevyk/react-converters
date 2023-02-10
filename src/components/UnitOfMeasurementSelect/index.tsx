@@ -1,13 +1,16 @@
 import { useState } from 'react';
 import { Form } from 'react-bootstrap';
-import { IMeasurementUnit } from '../../types';
+import { IMeasurementUnitGroup } from '../../types';
+import UnitOfMeasurementGroupOptions from '../UnitOfMeasurementGroupOptions';
 
 interface UnitOfMeasurementSelectProps {
-  optionContentList: IMeasurementUnit[];
+  groupsList: IMeasurementUnitGroup[];
+  defaultOptionText: string;
 }
 
 function UnitOfMeasurementSelect({
-  optionContentList,
+  groupsList,
+  defaultOptionText,
 }: UnitOfMeasurementSelectProps) {
   const [selectedValue, setSelectedValue] = useState<string>('');
 
@@ -22,12 +25,12 @@ function UnitOfMeasurementSelect({
       className="form__item"
     >
       <option value="" disabled>
-        Select unit of measurement...
+        {defaultOptionText}
       </option>
-      {optionContentList.map(({ id, names }) => (
-        <option key={id} value={id}>
-          {names.full} {names.short && `(${names.short})`}
-        </option>
+      {groupsList.map(({ name, content }) => (
+        <optgroup key={name} label={name}>
+          <UnitOfMeasurementGroupOptions optionList={content} />
+        </optgroup>
       ))}
     </Form.Select>
   );
