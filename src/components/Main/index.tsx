@@ -1,12 +1,12 @@
 import './Main.css';
-import { Outlet } from 'react-router-dom';
-import Menu from '../Menu';
+import Navbar from '../Navbar';
+import Routes from '../../routes/Routes';
 
 function Main() {
   return (
     <main className="App__main">
-      <Menu />
-      <Outlet />
+      <Navbar />
+      <Routes />
     </main>
   );
 }
