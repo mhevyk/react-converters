@@ -1,128 +1,125 @@
 {
-    "data": [
+    "type": "area",
+    "groups": [
         {
-            "id": "nm",
-            "value": 1000000000,
-            "names": {
-                "short": "nm",
-                "full": "nanometer"
-            },
-            "group": "Metric system"
+            "name": "Metric system",
+            "content": [
+                {
+                    "id": "nm",
+                    "value": 1000000000,
+                    "names": {
+                        "short": "nm",
+                        "full": "nanometer"
+                    }
+                },
+                {
+                    "id": "µm",
+                    "value": 1000000,
+                    "names": {
+                        "short": "µm",
+                        "full": "micrometer"
+                    }
+                },
+                {
+                    "id": "mm",
+                    "value": 1000,
+                    "names": {
+                        "short": "mm",
+                        "full": "milimeter"
+                    }
+                },
+                {
+                    "id": "cm",
+                    "value": 100,
+                    "names": {
+                        "short": "cm",
+                        "full": "centimeter"
+                    }
+                },
+                {
+                    "id": "dm",
+                    "value": 10,
+                    "names": {
+                        "short": "dm",
+                        "full": "decimeter"
+                    }
+                },
+                {
+                    "id": "m",
+                    "value": 1,
+                    "names": {
+                        "short": "m",
+                        "full": "meter"
+                    }
+                },
+                {
+                    "id": "km",
+                    "value": 0.001,
+                    "names": {
+                        "short": "km",
+                        "full": "kilometer"
+                    }
+                }
+            ]
         },
         {
-            "id": "µm",
-            "value": 1000000,
-            "names": {
-                "short": "µm",
-                "full": "micrometer"
-            },
-            "group": "Metric system"
-        },
-        {
-            "id": "mm",
-            "value": 1000,
-            "names": {
-                "short": "mm",
-                "full": "milimeter"
-            },
-            "group": "Metric system"
-        },
-        {
-            "id": "cm",
-            "value": 100,
-            "names": {
-                "short": "cm",
-                "full": "centimeter"
-            },
-            "group": "Metric system"
-        },
-        {
-            "id": "dm",
-            "value": 10,
-            "names": {
-                "short": "dm",
-                "full": "decimeter"
-            },
-            "group": "Metric system"
-        },
-        {
-            "id": "m",
-            "value": 1,
-            "names": {
-                "short": "m",
-                "full": "meter"
-            },
-            "group": "Metric system"
-        },
-        {
-            "id": "km",
-            "value": 0.001,
-            "names": {
-                "short": "km",
-                "full": "kilometer"
-            },
-            "group": "Metric system"
-        },
-        {
-            "id": "league",
-            "value": 0.000207123730745778,
-            "names": {
-                "full": "league"
-            },
-            "group": "Anglo-american units"
-        },
-        {
-            "id": "mi",
-            "value": 0.0006213711922373339,
-            "names": {
-                "short": "mi",
-                "full": "mile"
-            },
-            "group": "Anglo-american units"
-        },
-        {
-            "id": "chain",
-            "value": 0.049709695378986715,
-            "names": {
-                "full": "chain"
-            },
-            "group": "Anglo-american units"
-        },
-        {
-            "id": "rd",
-            "value": 0.19883878151594686,
-            "names": {
-                "short": "rd",
-                "full": "rod"
-            },
-            "group": "Anglo-american units"
-        },
-        {
-            "id": "yd",
-            "value": 1.0936132983377078,
-            "names": {
-                "short": "yd",
-                "full": "yard"
-            },
-            "group": "Anglo-american units"
-        },
-        {
-            "id": "ft",
-            "value": 3.2808398950131235,
-            "names": {
-                "short": "ft",
-                "full": "foot"
-            },
-            "group": "Anglo-american units"
-        },
-        {
-            "id": "in",
-            "value": 39.37007874015748,
-            "names": {
-                "short": "in",
-                "full": "inch"
-            },
-            "group": "Anglo-american units"
+            "name": "Anglo-american units",
+            "content": [
+                {
+                    "id": "league",
+                    "value": 0.000207123730745778,
+                    "names": {
+                        "full": "league"
+                    }
+                },
+                {
+                    "id": "mi",
+                    "value": 0.0006213711922373339,
+                    "names": {
+                        "short": "mi",
+                        "full": "mile"
+                    }
+                },
+                {
+                    "id": "chain",
+                    "value": 0.049709695378986715,
+                    "names": {
+                        "full": "chain"
+                    }
+                },
+                {
+                    "id": "rd",
+                    "value": 0.19883878151594686,
+                    "names": {
+                        "short": "rd",
+                        "full": "rod"
+                    }
+                },
+                {
+                    "id": "yd",
+                    "value": 1.0936132983377078,
+                    "names": {
+                        "short": "yd",
+                        "full": "yard"
+                    }
+                },
+                {
+                    "id": "ft",
+                    "value": 3.2808398950131235,
+                    "names": {
+                        "short": "ft",
+                        "full": "foot"
+                    }
+                },
+                {
+                    "id": "in",
+                    "value": 39.37007874015748,
+                    "names": {
+                        "short": "in",
+                        "full": "inch"
+                    }
+                }
+            ]
         }
     ]
 }

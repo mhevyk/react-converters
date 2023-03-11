@@ -1,0 +1,120 @@
+{
+    "type": "weight",
+    "groups": [
+        {
+            "name": "No group",
+            "content": [
+                {
+                    "id": "EB",
+                    "value": 9.094948e-13,
+                    "names": {
+                        "short": "EB",
+                        "full": "exabyte"
+                    }
+                },
+                {
+                    "id": "PB",
+                    "value": 9.313227e-10,
+                    "names": {
+                        "short": "PB",
+                        "full": "petabyte"
+                    }
+                },
+                {
+                    "id": "TB",
+                    "value": 9.536744e-7,
+                    "names": {
+                        "short": "TB",
+                        "full": "terabyte"
+                    }
+                },
+                {
+                    "id": "GB",
+                    "value": 0.0009765625,
+                    "names": {
+                        "short": "GB",
+                        "full": "gigabyte"
+                    }
+                },
+                {
+                    "id": "MB",
+                    "value": 1,
+                    "names": {
+                        "short": "MB",
+                        "full": "megabyte"
+                    }
+                },
+                {
+                    "id": "kB",
+                    "value": 1024,
+                    "names": {
+                        "short": "kB",
+                        "full": "kilobyte"
+                    }
+                },
+                {
+                    "id": "B",
+                    "value": 1048576,
+                    "names": {
+                        "short": "B",
+                        "full": "byte"
+                    }
+                },
+                {
+                    "id": "bit",
+                    "value": 8388608,
+                    "names": {
+                        "full": "bit"
+                    }
+                },
+                {
+                    "id": "kbit",
+                    "value": 8192,
+                    "names": {
+                        "short": "kbit",
+                        "full": "kilobit"
+                    }
+                },
+                {
+                    "id": "mbit",
+                    "value": 8,
+                    "names": {
+                        "short": "mbit",
+                        "full": "megabit"
+                    }
+                },
+                {
+                    "id": "gbit",
+                    "value": 0.007812500,
+                    "names": {
+                        "short": "gbit",
+                        "full": "gigabit"
+                    }
+                },
+                {
+                    "id": "tbit",
+                    "value": 0.000007629395,
+                    "names": {
+                        "short": "tbit",
+                        "full": "terabit"
+                    }
+                },
+                {
+                    "id": "pbit",
+                    "value": 7.450581e-9,
+                    "names": {
+                        "short": "pbit",
+                        "full": "petabit"
+                    }
+                },
+                {
+                    "id": "exabit",
+                    "value": 7.275958e-12,
+                    "names": {
+                        "full": "exabit"
+                    }
+                }
+            ]
+        }
+    ]
+}

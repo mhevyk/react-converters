@@ -1,0 +1,110 @@
+{
+    "type": "weight",
+    "groups": [
+        {
+            "name": "Metric system",
+            "content": [
+                {
+                    "id": "µm/s",
+                    "value": 1e6,
+                    "names": {
+                        "short": "µm/s",
+                        "full": "micrometer per second"
+                    }
+                },
+                {
+                    "id": "mm/s",
+                    "value": 1e3,
+                    "names": {
+                        "short": "mm/s",
+                        "full": "milimeter per second"
+                    }
+                },
+                {
+                    "id": "km/h",
+                    "value": 3.6,
+                    "names": {
+                        "short": "km/h",
+                        "full": "kilometer per hour"
+                    }
+                },
+                {
+                    "id": "m/s",
+                    "value": 1,
+                    "names": {
+                        "short": "m/s",
+                        "full": "meter per second"
+                    }
+                },
+                {
+                    "id": "km/s",
+                    "value": 1e-3,
+                    "names": {
+                        "short": "km/s",
+                        "full": "kilometer per second"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Anglo-american units",
+            "content": [
+                {
+                    "id": "mi/s",
+                    "value": 0.000621371192237334,
+                    "names": {
+                        "short": "mi/s",
+                        "full": "mile per second"
+                    }
+                },
+                {
+                    "id": "mph",
+                    "value": 2.2369362920544,
+                    "names": {
+                        "short": "mi/h, mph",
+                        "full": "mile per hour"
+                    }
+                },
+                {
+                    "id": "ft/s",
+                    "value": 3.28083989501312,
+                    "names": {
+                        "short": "ft/s, fps",
+                        "full": "foot per second"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Marine",
+            "content": [
+                {
+                    "id": "knot",
+                    "value": 1.9438444924406,
+                    "names": {
+                        "full": "knot"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Physics",
+            "content": [
+                {
+                    "id": "light",
+                    "value": 3.3356409519815204957557671447492e-9,
+                    "names": {
+                        "full": "speed of light"
+                    }
+                },
+                {
+                    "id": "sound",
+                    "value": 0.0029154518950437317784256559766764,
+                    "names": {
+                        "full": "speed of sound"
+                    }
+                }
+            ]
+        }
+    ]
+}
