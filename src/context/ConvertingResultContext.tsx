@@ -1,9 +1,11 @@
 import { createContext, PropsWithChildren, useContext, useState } from 'react';
 import { ConvertingResult } from '../types/converting-result';
 
+type ConvertingResultOrNull = ConvertingResult | null;
+
 interface ConvertingResultContextType {
-  result: ConvertingResult | null;
-  setResult: (value: ConvertingResult | null) => void;
+  result: ConvertingResultOrNull;
+  setResult: (value: ConvertingResultOrNull) => void;
 }
 
 const ConvertingResultContext = createContext<ConvertingResultContextType>({
@@ -14,7 +16,8 @@ const ConvertingResultContext = createContext<ConvertingResultContextType>({
 interface ConvertingResultProviderProps extends PropsWithChildren {}
 
 function ConvertingResultProvider({ children }: ConvertingResultProviderProps) {
-  const [result, setResult] = useState<ConvertingResult | null>(null);
+  const [result, setResult] = useState<ConvertingResultOrNull>(null);
+
   const contextValue = {
     result,
     setResult,
