@@ -1,7 +1,10 @@
-import Section from '../components/Section';
+import ConverterPage from './ConverterPage';
+import lengthApiData from '../api/length.json';
 
 function LengthPage() {
-  return <Section name="Length converter">Length converter</Section>;
+  return (
+    <ConverterPage converterName="length" converterApiData={lengthApiData} />
+  );
 }
 
 export default LengthPage;
