@@ -1,0 +1,8 @@
+.loader-container {
+    flex-grow: 1;
+}
+
+.loader-container .loading-icon {
+    animation: rotate 1.5s linear infinite;
+    color: var(--bs-secondary);
+}
