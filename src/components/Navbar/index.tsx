@@ -23,7 +23,7 @@ function Navbar() {
     >
       <Container fluid>
         <BSNavbar.Brand as={Link} to="/">
-          <img src="assets/logo.png" alt="logo" className="logo" />
+          <img src={`${process.env.PUBLIC_URL}/assets/logo.png`} alt="logo" className="logo" />
         </BSNavbar.Brand>
         <BSNavbar.Toggle
           aria-controls={offcanvasNavbarClassName}
