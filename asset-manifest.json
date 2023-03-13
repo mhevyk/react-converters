@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-converters/static/css/main.3be46875.css",
-    "main.js": "/react-converters/static/js/main.780ba3b6.js",
+    "main.js": "/react-converters/static/js/main.e960d78e.js",
     "static/js/371.8c6c734b.chunk.js": "/react-converters/static/js/371.8c6c734b.chunk.js",
     "static/js/481.db6d1bae.chunk.js": "/react-converters/static/js/481.db6d1bae.chunk.js",
     "static/js/287.56436e9a.chunk.js": "/react-converters/static/js/287.56436e9a.chunk.js",
@@ -12,7 +12,7 @@
     "static/media/cano.otf": "/react-converters/static/media/cano.b36f125ddbdcbc34f584.otf",
     "index.html": "/react-converters/index.html",
     "main.3be46875.css.map": "/react-converters/static/css/main.3be46875.css.map",
-    "main.780ba3b6.js.map": "/react-converters/static/js/main.780ba3b6.js.map",
+    "main.e960d78e.js.map": "/react-converters/static/js/main.e960d78e.js.map",
     "371.8c6c734b.chunk.js.map": "/react-converters/static/js/371.8c6c734b.chunk.js.map",
     "481.db6d1bae.chunk.js.map": "/react-converters/static/js/481.db6d1bae.chunk.js.map",
     "287.56436e9a.chunk.js.map": "/react-converters/static/js/287.56436e9a.chunk.js.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.3be46875.css",
-    "static/js/main.780ba3b6.js"
+    "static/js/main.e960d78e.js"
   ]
 }
