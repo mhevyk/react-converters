@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import sitemap from '../routes/sitemap';
+import sitemap, { RouteType } from '../routes/sitemap';
 
 function HomePage() {
   return (
@@ -9,7 +9,7 @@ function HomePage() {
       <p>Select one of converters to start your work:</p>
       <ul className="list-group list-group-flush">
         {sitemap.map(
-          (route) =>
+          (route: RouteType) =>
             route.name && (
               <li key={route.path} className="list-group-item bg-transparent">
                 {route?.icon && (
