@@ -1,6 +1,12 @@
 import { ComponentType, lazy } from 'react';
 import HomePage from '../pages/HomePage';
-import AreaPage from '../pages/AreaPage';
+import { TbChartAreaLine } from 'react-icons/tb';
+import { RxRulerHorizontal } from 'react-icons/rx';
+import { GiCellarBarrels, GiWeight, GiSpeedometer } from 'react-icons/gi';
+import { DiDatabase } from 'react-icons/di';
+import { CgSandClock } from 'react-icons/cg';
+
+const AreaPage = lazy(() => import('../pages/AreaPage'));
 const LengthPage = lazy(() => import('../pages/LengthPage'));
 const VolumePage = lazy(() => import('../pages/VolumePage'));
 const WeightPage = lazy(() => import('../pages/WeightPage'));
@@ -9,52 +15,63 @@ const SpeedPage = lazy(() => import('../pages/SpeedPage'));
 const TimePage = lazy(() => import('../pages/TimePage'));
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'))
 
+interface IconProps {
+    size?: number
+}
 
 export interface RouteType {
     path: string;
     name?: string,
     component: ComponentType;
+    icon?: ComponentType<IconProps>
 }
 
 const sitemap: RouteType[] = [
     {
         path: '/',
-        component: HomePage
+        component: HomePage,
     },
     {
         path: '/area',
         name: 'area',
-        component: AreaPage
+        component: AreaPage,
+        icon: TbChartAreaLine
     },
     {
         path: '/length',
         name: 'length',
-        component: LengthPage
+        component: LengthPage,
+        icon: RxRulerHorizontal
     },
     {
         path: '/volume',
         name: 'volume',
-        component: VolumePage
+        component: VolumePage,
+        icon: GiCellarBarrels
     },
     {
         path: '/weight',
         name: 'weight',
-        component: WeightPage
+        component: WeightPage,
+        icon: GiWeight,
     },
     {
         path: '/data',
         name: 'data',
-        component: DataPage
+        component: DataPage,
+        icon: DiDatabase
     },
     {
         path: '/speed',
         name: 'speed',
-        component: SpeedPage
+        component: SpeedPage,
+        icon: GiSpeedometer
     },
     {
         path: '/time',
         name: 'time',
-        component: TimePage
+        component: TimePage,
+        icon: CgSandClock
     },
     {
         path: '*',
