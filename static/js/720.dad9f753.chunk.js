@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_converters=self.webpackChunkreact_converters||[]).push([[720],{720:function(e,n,r){r.r(n);var c=r(7022),s=r(7689),t=r(2498),o=r(184);n.default=function(){var e=(0,s.s0)();return(0,o.jsxs)(c.Z,{children:[(0,o.jsx)("p",{children:"Opps... Converter was not found!"}),(0,o.jsx)(t.Z,{onClick:function(){return e("/")},children:"To home page"})]})}}}]);
-//# sourceMappingURL=720.dad9f753.chunk.js.map
