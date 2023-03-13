@@ -1,7 +1,7 @@
 .App {
     display: grid;
-    grid-template-rows: 150px 16fr 35px;
-    height: 100vh;
+    grid-template-rows: 160px 16fr 35px;
+    height: 100dvh;
     letter-spacing: 1.2px;
 }
 
@@ -13,4 +13,8 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+a {
+    text-decoration: none;
 }
