@@ -1,0 +1,20 @@
+.converter-form .form-group {
+    margin-bottom: 1.5em;
+    border-left: 3px solid var(--bs-gray-300);
+    padding-left: 1.5rem;
+}
+
+.converter-form .form-text {
+    display: block;
+    margin-bottom: 0.8em;
+}
+
+.converter-form .form-control,
+.converter-form .form-select {
+    padding-left: 1.5em;
+    margin-bottom: 5px;
+}
+
+.converter-form .feedback-group [class$='feedback'] {
+    margin: 10px 0;
+}
