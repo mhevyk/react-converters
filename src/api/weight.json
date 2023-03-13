@@ -1,0 +1,104 @@
+{
+    "type": "weight",
+    "groups": [
+        {
+            "name": "Metric system",
+            "content": [
+                {
+                    "id": "aom",
+                    "value": 6.022045e26,
+                    "names": {
+                        "short": "u",
+                        "full": "a.o.m"
+                    }
+                },
+                {
+                    "id": "ng",
+                    "value": 1e12,
+                    "names": {
+                        "short": "ng",
+                        "full": "nanogram"
+                    }
+                },
+                {
+                    "id": "µg",
+                    "value": 1e9,
+                    "names": {
+                        "short": "µg",
+                        "full": "microgram"
+                    }
+                },
+                {
+                    "id": "mg",
+                    "value": 1e6,
+                    "names": {
+                        "short": "mg",
+                        "full": "miligram"
+                    }
+                },
+                {
+                    "id": "stg",
+                    "value": 1e5,
+                    "names": {
+                        "full": "sentigram"
+                    }
+                },
+                {
+                    "id": "karat",
+                    "value": 5000,
+                    "names": {
+                        "full": "karat"
+                    }
+                },
+                {
+                    "id": "g",
+                    "value": 1e3,
+                    "names": {
+                        "short": "g",
+                        "full": "gram"
+                    }
+                },
+                {
+                    "id": "dag",
+                    "value": 100,
+                    "names": {
+                        "short": "dag",
+                        "full": "decagram"
+                    }
+                },
+                {
+                    "id": "hg",
+                    "value": 10,
+                    "names": {
+                        "short": "hg",
+                        "full": "hectogram"
+                    }
+                },
+                {
+                    "id": "kg",
+                    "value": 1,
+                    "names": {
+                        "short": "kg",
+                        "full": "kilogram"
+                    }
+                },
+                {
+                    "id": "kH",
+                    "value": 0.009806652,
+                    "names": {
+                        "short": "kH",
+                        "full": "kilonewton"
+                    }
+                },
+                {
+                    "id": "t",
+                    "value": 1e-3,
+                    "names": {
+                        "short": "t",
+                        "full": "ton"
+                    }
+                }
+            ]
+        }
+    ]
+}

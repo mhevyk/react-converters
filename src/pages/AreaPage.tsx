@@ -1,13 +1,8 @@
-import ConverterForm from '../components/ConverterForm';
-import Section from '../components/Section';
-import response from '../api/area.json';
+import ConverterPage from './ConverterPage';
+import areaApiData from '../api/area.json';
 
 function Area() {
-  return (
-    <Section name="Area converter">
-      <ConverterForm converterData={response} />
-    </Section>
-  );
+  return <ConverterPage converterName="area" converterApiData={areaApiData} />;
 }
 
 export default Area;

@@ -1,0 +1,21 @@
+.swap-button:disabled {
+    color: var(--bs-gray-400);
+}
+
+.swap-button:disabled:hover {
+    cursor: pointer;
+}
+
+.swap-button {
+    color: var(--bs-primary);
+    border: none;
+    background: none;
+}
+
+.swap-button:not(:disabled):hover {
+    opacity: 0.6;
+}
+
+.rotate {
+    animation: rotate 1s linear infinite;
+}

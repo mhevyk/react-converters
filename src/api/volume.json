@@ -1,0 +1,159 @@
+{
+    "type": "volume",
+    "groups": [
+        {
+            "name": "Metric system",
+            "content": [
+                {
+                    "id": "µl",
+                    "value": 1e6,
+                    "names": {
+                        "short": "µl",
+                        "full": "microliter"
+                    }
+                },
+                {
+                    "id": "mm3",
+                    "value": 1e6,
+                    "names": {
+                        "short": "mm³",
+                        "full": "cubic milimeter"
+                    }
+                },
+                {
+                    "id": "ml",
+                    "value": 1e3,
+                    "names": {
+                        "short": "ml",
+                        "full": "mililiter"
+                    }
+                },
+                {
+                    "id": "cm3",
+                    "value": 1e3,
+                    "names": {
+                        "short": "cm³",
+                        "full": "cubic centimeter"
+                    }
+                },
+                {
+                    "id": "cl",
+                    "value": 1e2,
+                    "names": {
+                        "full": "centiliter"
+                    }
+                },
+                {
+                    "id": "dl",
+                    "value": 10,
+                    "names": {
+                        "full": "deciliter"
+                    }
+                },
+                {
+                    "id": "l",
+                    "value": 1,
+                    "names": {
+                        "full": "liter"
+                    }
+                },
+                {
+                    "id": "dm3",
+                    "value": 1,
+                    "names": {
+                        "short": "dm³",
+                        "full": "cubic decimeter"
+                    }
+                },
+                {
+                    "id": "hl",
+                    "value": 0.1,
+                    "names": {
+                        "full": "hectoliter"
+                    }
+                },
+                {
+                    "id": "m3",
+                    "value": 1e-3,
+                    "names": {
+                        "short": "m³",
+                        "full": "cubic meter"
+                    }
+                },
+                {
+                    "id": "km3",
+                    "value": 1e-12,
+                    "names": {
+                        "short": "km³",
+                        "full": "cubic kilometer"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "British imperial (dry)",
+            "content": [
+                {
+                    "id": "ba",
+                    "value": 0.006110602,
+                    "names": {
+                        "full": "barrel"
+                    }
+                },
+                {
+                    "id": "bu",
+                    "value": 0.02749610,
+                    "names": {
+                        "short": "bu",
+                        "full": "bushel"
+                    }
+                },
+                {
+                    "id": "pk",
+                    "value": 0.1099844,
+                    "names": {
+                        "short": "pk",
+                        "full": "pek"
+                    }
+                },
+                {
+                    "id": "gal",
+                    "value": 0.2199688,
+                    "names": {
+                        "short": "gal",
+                        "full": "gallon"
+                    }
+                },
+                {
+                    "id": "qt",
+                    "value": 0.8798751,
+                    "names": {
+                        "short": "qt",
+                        "full": "quart"
+                    }
+                },
+                {
+                    "id": "pt",
+                    "value": 1.759751,
+                    "names": {
+                        "short": "pt",
+                        "full": "pint"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "British imperial (fluid)",
+            "content": [
+                {
+                    "id": "oz",
+                    "value": 35.19501,
+                    "names": {
+                        "short": "oz",
+                        "full": "fluid ounce"
+                    }
+                }
+            ]
+        }
+    ]
+}
