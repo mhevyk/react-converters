@@ -2,18 +2,14 @@ import { MeasurementUnitGroup } from '../../types/measurement-unit';
 import ConverterOptgroupItems from '../ConverterOptgroupItems';
 
 interface ConverterSelectItemsProps {
-  defaultOptionText?: string;
   groupsList: MeasurementUnitGroup[];
 }
 
-function ConverterSelectItems({
-  defaultOptionText,
-  groupsList,
-}: ConverterSelectItemsProps) {
+function ConverterSelectItems({ groupsList }: ConverterSelectItemsProps) {
   return (
     <>
       <option value="" disabled>
-        {defaultOptionText || 'Select option...'}
+        Select unit of measurement...
       </option>
       {groupsList.map((group: MeasurementUnitGroup) => (
         <optgroup key={group.name} label={group.name}>

@@ -86,10 +86,7 @@ function ConverterForm({ converterData }: ConverterFormProps) {
           invalidMessage={errors[ConverterFormNames.FROM]?.message}
         >
           <Form.Select {...fromSelectRegister}>
-            <ConverterSelectItems
-              defaultOptionText="Select unit of measurement..."
-              groupsList={groups}
-            />
+            <ConverterSelectItems groupsList={groups} />
           </Form.Select>
         </InvalidFeedbackGroup>
       </Form.Group>
@@ -103,10 +100,7 @@ function ConverterForm({ converterData }: ConverterFormProps) {
             invalidMessage={errors[ConverterFormNames.TO]?.message}
           >
             <Form.Select {...toSelectRegister}>
-              <ConverterSelectItems
-                defaultOptionText="All units of measurement"
-                groupsList={groups}
-              />
+              <ConverterSelectItems groupsList={groups} />
             </Form.Select>
           </InvalidFeedbackGroup>
         </Form.Group>
